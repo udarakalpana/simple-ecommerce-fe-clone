@@ -1,13 +1,11 @@
-import ProductDetails from "./components/ProductDetails.jsx";
+import Routers from "./routers/Routers.jsx";
 
 const App = () => {
 
   return (
-      <div className='grid grid-cols-3 m-4'>
-      <ProductDetails />
-        <ProductDetails />
-        <ProductDetails />
-      </div>
+      <>
+          <Routers />
+      </>
   )
 }
 

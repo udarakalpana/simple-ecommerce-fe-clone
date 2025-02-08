@@ -1,4 +1,4 @@
-const ProductDetails = () => {
+const ProductDetailsCard = () => {
     return (
         <div
             className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm">
@@ -52,4 +52,4 @@ const ProductDetails = () => {
     );
 };
 
-export default ProductDetails;
+export default ProductDetailsCard;
