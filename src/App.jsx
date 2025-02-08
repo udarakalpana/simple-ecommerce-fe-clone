@@ -1,11 +1,13 @@
+import ProductDetails from "./components/ProductDetails.jsx";
+
 const App = () => {
 
   return (
-      <>
-        <h1 className="text-3xl font-bold underline">
-          Hello world!
-        </h1>
-      </>
+      <div className='grid grid-cols-3 m-4'>
+      <ProductDetails />
+        <ProductDetails />
+        <ProductDetails />
+      </div>
   )
 }
 
